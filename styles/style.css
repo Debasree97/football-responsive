@@ -68,4 +68,9 @@ body{
     width: 556.01px;
     height: 438px;
     padding: 135px 140px 114px 51px;
+    transition: 0.5s;
+}
+
+.banner-picture img:hover{
+    transform: scale(1.25);
 }
