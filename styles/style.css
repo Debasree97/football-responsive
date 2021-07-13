@@ -1,0 +1,71 @@
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    width: 1440px;
+}
+/* Banner-section */
+
+#banner-container{
+    display: flex;
+    height: 677px;
+    background-color: #2D25A0;
+}
+
+.banner-title{
+    width: 48.2%;
+}
+
+.banner-title h1{
+    margin: 207px 51px 27px 156px;
+    width: 485px;
+    height: 230px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 80px;
+    font-size: 64px;
+}
+
+#banner-button{
+    position: relative;
+    background-color: #E02C6D;
+    margin: 0px 503px 159px 156px;
+    width: 168px;
+    height: 44px;
+}
+
+#banner-button:hover{
+    background-color: #ad2a5a;
+    cursor: pointer;
+}
+
+.banner-title>#banner-button>a:first-child{
+    position: absolute;
+    width: 88px;
+    height: 24px;
+    padding: 10px 4px 10px 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;  
+}
+
+.banner-title>#banner-button>a:last-child{
+    position: absolute;
+    color: #FFFFFF;
+    left: 120px;
+    padding: 10px 24px 10px 4px;
+    width: 24px;
+    height: 24px;
+}
+.banner-picture{
+    width:51.8%;
+}
+
+.banner-picture img{
+    width: 556.01px;
+    height: 438px;
+    padding: 135px 140px 114px 51px;
+}
