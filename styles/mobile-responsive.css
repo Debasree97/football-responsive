@@ -1,0 +1,162 @@
+/* For-Mobile-Device */
+
+@media only screen and (max-width:360px){
+
+    /* Body */
+    body{
+        width: 100%;
+    }
+    
+    /* Top-Banner-section */
+    
+    #banner-container{
+        flex-direction: column;
+        width:100%;
+        height: 695px;
+    }
+
+    .banner-title{
+        width: 100%;
+        height: 50%;
+    }
+
+    #banner-picture{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .banner-title h1{
+        margin: 112px 66px 30px 16px;
+        width: 278px;
+        height: 138px;
+        line-height: 50px;
+        font-size: 36px;
+    }
+
+    #banner-button{
+        margin: 19px 173px 0px 19px;
+    }
+    
+    #banner-picture{
+        width: 100%;
+    }
+
+    .banner-picture img{
+        width: 329px;
+        height: 259.17px;
+        padding: 50px 16px 61px 15px;
+    }
+
+    .banner-picture img:hover{
+        transform: scale(1);
+    }
+
+    /* Player-List-Section */
+
+    #player-container{
+        grid-template-columns: repeat(1,330px);
+        column-gap: 27px;
+        padding: 0 15px 0 15px;
+        margin-top: 47px;    
+    }
+    /* Bonus-Section-1 */
+    /* Final-Banner */
+        
+    #final-container{
+        height: 500px;
+        width: 330px;
+        margin: 80px 15px;
+    }
+
+    #final-container>#heading{
+        height: 25%;
+    }
+
+    #heading h1{  
+        font-size: 40px;
+        margin: 10px;
+    }
+
+    #final-container>#info{
+        visibility: hidden;
+        height: 0%;
+    }
+    
+    #result{
+        width: 100%;
+        height: 75%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flag{
+        width: 100%;
+        height: 45%;
+        align-items: center ;
+    }
+    
+    #score{
+        width: 58%;
+        height: 10%;
+        padding-bottom: 0;
+    }
+    
+    #score span{
+        font-size: 16px;   
+    }
+    
+    #score i{
+        font-size: 20px;
+        padding: 0 40px;
+    }
+
+    /* Highlight-Section */
+
+    #hide{
+        visibility: hidden;
+    }
+    #highlight h1{
+        height: 70px;
+        padding: 0 20px 0 60px;
+        margin-top: 0;
+    }
+    iframe{
+        width: 330px;
+        height: 250px;
+    }
+
+    /* Footer */
+
+    footer>.grid-container{
+        width: 269px;
+        height: 63px;
+        grid-template-columns: 143.5px 1fr;
+        margin-top: 43px;
+    }
+
+    footer>.grid-container img{
+        width: 143px;
+        padding-right: 28px;
+        display: block;
+        height: 63px;
+        padding: 0;
+    }
+    
+    footer>.grid-container p{
+        width: 126px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    
+    footer>.flex-container{
+        height: 32px;
+        margin-top: 29px;
+    }
+    
+    footer>.flex-container>i{
+        font-size: 32px;
+        padding-left: 14px;
+        opacity: 0.3;  
+    }
+    
+    }

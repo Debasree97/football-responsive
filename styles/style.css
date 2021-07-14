@@ -3,11 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 
+/* Common-Style */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     width: 1440px;
 }
+
+/* Main */
 /* Top-Banner-section */
 
 .flex-container{
@@ -90,8 +93,7 @@ body{
     grid-template-columns: repeat(3,330px);
     row-gap: 30px;
     column-gap: 27px;
-    padding: 70px 210px 105px 180px;
-      
+    padding: 70px 210px 105px 180px;    
 }
 
 .player{
@@ -191,17 +193,14 @@ body{
 
 #score{
     width: 30%;
-}
-
-#score{
     padding-left: 72.39px;
     padding-bottom: 50px;
 }
+
 #score span{
     font-weight: bold;
     font-size: 30px;
-    color: #18191F;
-    
+    color: #18191F;   
 }
 
 #score i{
@@ -272,3 +271,7 @@ footer p{
     font-size: 18px;
     height: 31px;
 }
+
+/* ------------------------------------------------------------------------ */
+
+
