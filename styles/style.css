@@ -93,7 +93,8 @@ body{
     grid-template-columns: repeat(3,330px);
     row-gap: 30px;
     column-gap: 27px;
-    padding: 70px 210px 105px 180px;    
+    padding: 70px 210px 105px 180px;   
+    justify-items: center;
 }
 
 .player{
